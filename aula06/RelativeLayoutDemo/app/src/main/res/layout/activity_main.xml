@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/vertical_space"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edittext_email_hint"
+        tools:ignore="TouchTargetSizeCheck"></EditText>
+
+    <RatingBar
+        android:id="@+id/rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/vertical_space"
+        android:layout_marginBottom="@dimen/vertical_space"
+        tools:ignore="SpeakableTextPresentCheck"></RatingBar>
+
+    <Button
+        android:id="@+id/button_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rating"
+        android:text="@string/button_confirm_text"
+        android:layout_alignStart="@id/rating">
+    </Button>
+
+    <Button
+        android:id="@+id/button_cancel"
+        android:layout_alignTop="@id/button_confirm"
+        android:layout_alignEnd="@id/rating"
+        android:layout_width="wrap_content"
+        android:text="@string/button_cancel_text"
+        android:layout_height="wrap_content">
+    </Button>
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">IMC Calculadora</string>
+    <string name="edittext_altura_m_hint">Altura (m)</string>
+    <string name="edittext_weight_kg_hint">Peso (kg)</string>
+    <string name="button_calculate_text">Calcular</string>
+    <string name="textview_imc_value_default">0</string>
+    <string name="textview_imc_status_default">Desconhecido</string>
+    <string name="imc_status_muito_abaixo_peso">Muito abaixo do peso</string>
+    <string name="imc_status_abaixo_peso">Abaixo do peso</string>
+    <string name="imc_status_peso_normal">Peso normal</string>
+    <string name="imc_status_acima_peso">Acima do peso</string>
+    <string name="imc_status_obesidade_i">Obesidade I</string>
+    <string name="imc_status_obesidade_ii">Obesidade II (severa)</string>
+    <string name="imc_status_obesidade_iii">Obesidade III (mórbida)</string>
+    <string name="imc_value_formatted">%.2f</string>
+</resources>
