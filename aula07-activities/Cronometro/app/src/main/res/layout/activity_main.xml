@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textview_time_elapsed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="70sp"
+        android:text="@string/textview_time_elapsed_default"
+        app:layout_constraintVertical_bias="0.3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_start_stop"
+        app:layout_constraintLeft_toLeftOf="@id/textview_time_elapsed"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textview_time_elapsed"
+        app:layout_constraintVertical_bias="@dimen/button_vertical_bias"
+        android:text="@string/button_start_stop_default"
+        app:cornerRadius="@dimen/button_corner_radius"
+        android:paddingHorizontal="@dimen/button_padding_horizontal"
+        android:paddingVertical="@dimen/button_padding_vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button_reset"
+        app:layout_constraintRight_toRightOf="@id/textview_time_elapsed"
+        app:layout_constraintTop_toBottomOf="@id/textview_time_elapsed"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="@dimen/button_vertical_bias"
+        android:text="@string/button_reset_default"
+        app:cornerRadius="@dimen/button_corner_radius"
+        android:paddingHorizontal="@dimen/button_padding_horizontal"
+        android:paddingVertical="@dimen/button_padding_vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

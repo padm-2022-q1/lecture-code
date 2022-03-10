@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Trace Activity Lifecycle</string>
+    <string name="title_activity_name_input">Trace Activity Lifecycle</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_message_render">Message Render Activity</string>
+    <string name="name_hint">Type your name...</string>
+    <string name="button_text">Go!</string>
+    <string name="name_input_activity_title">Name Input Activity</string>
+    <string name="result_message">\"Hello, %s\"</string>
+    <string name="result_will_appear_here">Result will appear here...</string>
+
+</resources>
