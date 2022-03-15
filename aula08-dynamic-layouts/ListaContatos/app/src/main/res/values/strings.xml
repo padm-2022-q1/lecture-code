@@ -1,8 +1,11 @@
 <resources>
     <string name="app_name">Lista Contatos</string>
-    <string name="contact_list_item_full_name_default">FirstName LastName</string>
-    <string name="contact_list_item_email">address@email.com</string>
-    <string name="contact_list_item_phone">+55(11)987654321</string>
+    <string name="contact_list_item_fullname_default">Full name</string>
     <string name="contact_list_item_email_label">Email</string>
+    <string name="contact_list_item_email_default">Valor email</string>
     <string name="contact_list_item_phone_label">Phone</string>
+    <string name="contact_list_item_phone_default">Valor phone</string>
+    <string name="contact_list_item_address_default">Address value</string>
+    <string name="contact_list_item_address_label">Address</string>
+    <string name="contact_list_item_address_value">Address value</string>
 </resources>

@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
      */
     private data class Contact(
         @Json(name = "name")
-        var fullName: String,
+        var name: String,
         var email: String,
         var phone: String,
         var address: String
@@ -50,9 +50,10 @@ class MainActivity : AppCompatActivity() {
          */
         private class ContactHolder(itemBinding: ContactListItemBinding) :
             RecyclerView.ViewHolder(itemBinding.root) {
-            val fullName = itemBinding.contactListItemFullName
-            val email = itemBinding.contactListItemEmail
-            val phone = itemBinding.contactListItemPhone
+            val name = itemBinding.contactListItemFullname
+            val email = itemBinding.contactListItemEmailValue
+            val phone = itemBinding.contactListItemPhoneValue
+            val address = itemBinding.contactListItemAddressValue
         }
 
         /**
@@ -76,9 +77,10 @@ class MainActivity : AppCompatActivity() {
         override fun onBindViewHolder(holder: ContactHolder, position: Int) {
             val contact = contacts[position]
 
-            holder.fullName.text = contact.fullName
+            holder.name.text = contact.name
             holder.email.text = contact.email
             holder.phone.text = contact.phone
+            holder.address.text = contact.address
         }
 
         /**
