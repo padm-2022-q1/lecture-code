@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FragmentsDemo</string>
+    <string name="title_activity_main">Fragments Demo</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_hello_fragment">Hello Fragment</string>
+    <string name="title_activity_static_fragment">Static Fragment Demo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="static_fragment_top">Hello, I am a static fragment at the top</string>
+    <string name="static_fragment_bottom">Hello, I am a static fragment at the bottom</string>
+    <string name="title_activity_dynamic_fragments">Dynamic Fragments Demo</string>
+    <string name="top_trigger">Top Fragment</string>
+    <string name="bottom_fragment">Bottom fragment</string>
+    <string name="title_activity_device_detection">Device Screen Size Detection</string>
+    <string name="small_device_message">Hello, I am running on a small device!</string>
+    <string name="large_device_message">Hello, I am running on a large device!</string>
+
+</resources>

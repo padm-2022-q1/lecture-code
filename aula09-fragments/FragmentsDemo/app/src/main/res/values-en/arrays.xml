@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="demo_list">
+        <item>Static Fragments</item>
+        <item>Dynamic Fragments</item>
+        <item>Device size detection (declarative)</item>
+        <item>Device size detection (imperative)</item>
+    </string-array>
+</resources>

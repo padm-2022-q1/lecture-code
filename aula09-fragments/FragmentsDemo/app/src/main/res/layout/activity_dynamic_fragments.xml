@@ -1,0 +1,51 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    tools:context=".DynamicFragmentsActivity"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/button_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="48dp" />
+
+    <Button android:id="@+id/top_trigger"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_guideline"
+        app:layout_constraintEnd_toStartOf="@id/bottom_trigger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/top_trigger"/>
+
+    <Button android:id="@+id/bottom_trigger"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_guideline"
+        app:layout_constraintStart_toEndOf="@id/top_trigger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bottom_fragment"/>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/top_container"
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toBottomOf="@id/top_trigger"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@id/bottom_container"
+        android:layout_height="0dp" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/bottom_container"
+        app:layout_constraintTop_toBottomOf="@id/top_container"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:foregroundGravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

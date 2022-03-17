@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.edu.ufabc.fragmentsdemo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FragmentsDemo" >
+        <activity
+            android:name="br.edu.ufabc.fragmentsdemo.MainActivity"
+            android:label="@string/title_activity_main"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="br.edu.ufabc.fragmentsdemo.StaticFragmentActivity"
+            android:label="@string/title_activity_static_fragment" >
+        </activity>
+        <activity
+            android:name="br.edu.ufabc.fragmentsdemo.DynamicFragmentsActivity"
+            android:label="@string/title_activity_dynamic_fragments" >
+        </activity>
+        <activity
+            android:name="br.edu.ufabc.fragmentsdemo.DeviceDetectionActivityDeclarative"
+            android:label="@string/title_activity_device_detection" >
+        </activity>
+        <activity
+            android:name="br.edu.ufabc.fragmentsdemo.DeviceDetectionActivityImperative"
+            android:label="@string/title_activity_device_detection" >
+        </activity>
+    </application>
+
+</manifest>

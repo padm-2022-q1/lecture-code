@@ -1,0 +1,2 @@
+* `FragmentsDemo`: exemplos simples de como trabalhar com fragmentos (estática ou dinamicamente), bem como diferentes modos de detectar configurações do dispositivo para efetuar adaptação de conteúdo.
+* `ListaContatosResponsiva_pt1_smartphone`: primeira parte do aplicativo "Lista de Contatos Responsiva". Nesta parte, está implementada a interface para smartphone (tela pequena), utilizando fragmentos. Na próxima aula, terminaremos o aplicativo implementando também a interface para tablets (tela grande).

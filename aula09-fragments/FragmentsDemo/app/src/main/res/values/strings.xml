@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">FragmentsDemo</string>
+    <string name="title_activity_main">Fragments Demo</string>
+
+    <string name="hello_world">Olá mundo!</string>
+    <string name="action_settings">Configurações</string>
+    <string name="title_activity_hello_fragment">Olá Fragmento</string>
+    <string name="title_activity_static_fragment">Fragmento estático Demo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Olá fragmento em branco</string>
+    <string name="static_fragment_top">Olá, eu sou um fragmento estático no topo</string>
+    <string name="static_fragment_bottom">Olá, eu sou um fragmento estático na base</string>
+    <string name="title_activity_dynamic_fragments">Fragmento dinâmico Demo</string>
+    <string name="top_trigger">Fragmento do topo</string>
+    <string name="bottom_fragment">Fragmento da base</string>
+    <string name="title_activity_device_detection">Detecção do tamanho da tela</string>
+    <string name="small_device_message">Olá, estou rodando numa tela pequena!</string>
+    <string name="large_device_message">Olá, estou rodando numa tela grande!</string>
+</resources>

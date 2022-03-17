@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="demo_list">
+        <item>Fragmentos estáticos</item>
+        <item>Fragmentos dinâmicos</item>
+        <item>Detecção de tamanho de tela (declarativo)</item>
+        <item>Detecção de tamanho de tela (imperativo)</item>
+    </string-array>
+</resources>
