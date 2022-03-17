@@ -76,7 +76,7 @@ class ContactListFragment(private val contacts: List<Contact>) : Fragment() {
          */
         override fun onViewRecycled(holder: ContactHolder) {
             super.onViewRecycled(holder)
-            Log.d("APP", "Recycled holder at position ${holder.adapterPosition}")
+            Log.d("APP", "Recycled holder at position ${holder.bindingAdapterPosition}")
         }
     }
 

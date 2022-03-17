@@ -23,14 +23,14 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         loadData()
+        doLayout()
+        bindEvents()
     }
 
     private fun loadData() {
         try {
             resources.assets.open(contactsFile).use {
                 contacts = Klaxon().parseArray(it) ?: emptyList()
-                doLayout()
-                bindEvents()
             }
         } catch (e: FileNotFoundException) {
             Log.e("APP", "Failed to open dataset file", e)
