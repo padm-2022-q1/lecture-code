@@ -17,4 +17,5 @@
     <string name="title_activity_device_detection">Detecção do tamanho da tela</string>
     <string name="small_device_message">Olá, estou rodando numa tela pequena!</string>
     <string name="large_device_message">Olá, estou rodando numa tela grande!</string>
+    <string name="message_600dp">I am in a device with at least 600dp width</string>
 </resources>

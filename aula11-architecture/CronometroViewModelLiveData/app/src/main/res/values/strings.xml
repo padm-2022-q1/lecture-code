@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Cronômetro ViewModel LiveData</string>
+    <string name="textview_time_elapsed_default">00:00:00</string>
+    <string name="button_start_stop_default">Start</string>
+    <string name="button_reset_default">Reset</string>
+    <string name="time_format">%02d:%02d:%02d</string>
+    <string name="button_stop">Stop</string>
+</resources>

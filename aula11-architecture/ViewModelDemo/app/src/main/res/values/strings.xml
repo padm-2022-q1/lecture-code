@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ViewModel Demo</string>
+    <string name="message">Teste o ciclo de vida da atividade usando backstack e mudanças de configuração (e.g. rotação) e observe as mensages \"TRACELIFECYCLE\" no logcat, modo debug. Compare os ciclo de vida da ViewModel vs da MainActivity.</string>
+    <string name="button_message">Abrir atividade secundária</string>
+    <string name="message_secondary">Sem ações nessa atividade secundária. Apenas pressione back e observe o log.</string>
+    <string name="secondary_title">Secondary Activity</string>
+</resources>

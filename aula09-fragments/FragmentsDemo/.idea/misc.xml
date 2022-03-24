@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/layout-sw600dp/activity_device_detection.xml" value="0.277734375" />
         <entry key="app/src/main/res/layout/activity_dynamic_fragments.xml" value="0.3536458333333333" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.3536458333333333" />
         <entry key="app/src/main/res/layout/activity_static_fragment.xml" value="0.3536458333333333" />
