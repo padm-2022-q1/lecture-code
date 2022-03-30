@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LiveData Demo</string>
+    <string name="default_message">I am waiting</string>
+    <string name="send_message">Enviar mensagem aos Observers</string>
+    <string name="fragment_a_message">Fragment A observed: %d</string>
+    <string name="fragment_a_message_default">Fragment A observed: nothing</string>
+    <string name="fragment_b_message">Fragment B observed: %d</string>
+    <string name="fragment_b_message_default">Fragment B observed: nothing</string>
+</resources>

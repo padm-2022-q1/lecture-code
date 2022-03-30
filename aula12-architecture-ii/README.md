@@ -1,0 +1,1 @@
+* `contacts.json`: conjunto de contatos com id em cada registro

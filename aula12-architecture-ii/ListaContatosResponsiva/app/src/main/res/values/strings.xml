@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Lista Contatos Responsiva</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="contact_list_item_fullname_default">Name</string>
+    <string name="contact_list_item_email_label">Email</string>
+    <string name="contact_list_item_email_default">Valor email</string>
+    <string name="contact_list_item_phone_label">Phone</string>
+    <string name="contact_list_item_phone_default">Valor phone</string>
+    <string name="contact_list_item_address_default">Address value</string>
+    <string name="contact_list_item_address_label">Address</string>
+    <string name="contact_list_item_address_value">Address value</string>
+</resources>
