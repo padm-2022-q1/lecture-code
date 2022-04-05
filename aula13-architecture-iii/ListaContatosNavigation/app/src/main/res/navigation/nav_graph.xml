@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/destination_contact_item">
+
+    <fragment
+        android:id="@+id/destination_contact_item"
+        android:name="br.edu.ufabc.listacontatosnavigation.ContactItemFragment">
+        <action
+            android:id="@+id/show_item_details"
+            app:destination="@id/destination_contact_item" />
+        <argument
+            android:name="contactId"
+            app:argType="long"
+            android:defaultValue="-1L" />
+    </fragment>
+</navigation>

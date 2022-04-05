@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.slidingpanelayout.widget.SlidingPaneLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sliding_pane_layout"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/contact_list_fragment_container"
+        android:name="br.edu.ufabc.listacontatosslidingpane.ContactListFragment"
+        android:minWidth="160dp"
+        android:layout_weight="0.4"
+        android:layout_width="wrap_content"
+        tools:layout="@layout/fragment_contact_list"
+        android:layout_height="match_parent"/>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/contact_item_fragment_container"
+        android:name="br.edu.ufabc.listacontatosslidingpane.ContactItemFragment"
+        android:layout_weight="0.6"
+        android:minWidth="240dp"
+        tools:layout="@layout/fragment_contact_item"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+</androidx.slidingpanelayout.widget.SlidingPaneLayout>
