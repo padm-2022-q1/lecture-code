@@ -1,0 +1,12 @@
+<TextView android:tag="textview_tag"
+    android:layout_width="wrap_content"
+    android:text="aTag"
+    android:background="@drawable/rounded_corners"
+    android:paddingHorizontal="4dp"
+    android:textSize="11sp"
+    android:textColor="@color/white"
+    app:cornerRadius="8dp"
+    android:layout_marginStart="2dp"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />
