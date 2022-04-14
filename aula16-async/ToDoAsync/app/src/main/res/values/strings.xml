@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ToDo! Async</string>
+    <string name="nav_header_title">ToDo!</string>
+
+    <string name="all_tasks_title">All tasks</string>
+    <string name="overdue_tasks_title">Overdue</string>
+    <string name="tags_submenu_title">Tags</string>
+    <string name="completed_tasks_title">Completed</string>
+    <string name="tag_title">Tag: %s</string>
+    <string name="app_icon" translatable="false">App icon</string>
+</resources>

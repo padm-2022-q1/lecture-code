@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@+id/destination_task_list">
+
+    <fragment
+        android:id="@+id/destination_task_list"
+        android:name="br.edu.ufabc.todoasync.view.ListFragment"
+        android:label="{title}" >
+        <argument
+            android:name="filterCriteria"
+            app:argType="br.edu.ufabc.todoasync.view.FilterCriteria"
+            android:defaultValue="ALL" />
+        <argument
+            android:name="title"
+            app:argType="string"
+            android:defaultValue="All tasks"
+            />
+        <argument
+            android:name="tag"
+            app:argType="string"
+            android:defaultValue="No tag"/>
+        <action
+            android:id="@+id/filter_task_list"
+            app:destination="@id/destination_task_list"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:launchSingleTop="true"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+            app:popUpTo="@id/destination_task_list"
+            app:popUpToInclusive="true" />
+
+    </fragment>
+
+
+
+</navigation>
