@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/destination_contact_list">
+
+    <fragment
+        android:id="@+id/destination_contact_list"
+        android:name="br.edu.ufabc.listacontatosclient.ContactListFragment"
+        android:label="Lista Contatos Client"
+        tools:layout="@layout/fragment_contact_list" >
+        <action
+            android:id="@+id/showContactDetails"
+            app:destination="@id/destination_contact_item" />
+        <action
+            android:id="@+id/addContact"
+            app:destination="@id/destination_contact_add" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/destination_contact_item"
+        android:label="Contact details"
+        android:name="br.edu.ufabc.listacontatosclient.ContactItemFragment">
+        <argument
+            android:name="contactId"
+            app:argType="long"
+            android:defaultValue="-1L" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/destination_contact_add"
+        android:name="br.edu.ufabc.listacontatosclient.ContactAddFragment"
+        android:label="Add new contact">
+        <action
+            android:id="@+id/onAddSuccess"
+            app:destination="@id/destination_contact_item" />
+    </fragment>
+
+
+</navigation>

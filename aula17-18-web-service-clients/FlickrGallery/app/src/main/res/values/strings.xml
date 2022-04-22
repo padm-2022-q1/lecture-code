@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Flickr Gallery</string>
+    <string name="gallery_image_description_default">Empty content description</string>
+    <string name="photo_full_description_default">Sample photo full</string>
+    <string name="searchview_hint">tag1, tag2, tag3</string>
+</resources>

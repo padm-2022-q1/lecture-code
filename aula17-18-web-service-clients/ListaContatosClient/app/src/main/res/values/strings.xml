@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Lista Contatos Client</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="contact_list_item_fullname_default">Name</string>
+    <string name="contact_list_item_email_label">Email</string>
+    <string name="contact_list_item_email_default">Valor email</string>
+    <string name="contact_list_item_phone_label">Phone</string>
+    <string name="contact_list_item_phone_default">Valor phone</string>
+    <string name="contact_list_item_address_default">Address value</string>
+    <string name="contact_list_item_address_label">Address</string>
+    <string name="contact_list_item_address_value">Address value</string>
+    <string name="fab_add_contact_description">Add new contact</string>
+    <string name="edittext_name_hint">Name</string>
+    <string name="edittext_email_hint">Email</string>
+    <string name="edittext_phone_hint">Phone</string>
+    <string name="edittext_address_hint">Address</string>
+    <string name="action_save_content_description">Save contact</string>
+    <string name="action_save_title">Save</string>
+</resources>

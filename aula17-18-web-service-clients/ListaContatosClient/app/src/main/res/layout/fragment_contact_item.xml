@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/contact_list_item_fullname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_list_item_fullname_default"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/contact_list_item_email_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/contact_list_item_label_font_size"
+        android:text="@string/contact_list_item_email_label"
+        android:layout_marginTop="@dimen/contact_list_item_internal_spacing"
+        app:layout_constraintStart_toStartOf="@+id/contact_list_item_fullname"
+        app:layout_constraintTop_toBottomOf="@+id/contact_list_item_fullname" />
+
+    <TextView
+        android:id="@+id/contact_list_item_email_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_list_item_email_default"
+        app:layout_constraintStart_toStartOf="@+id/contact_list_item_email_label"
+        app:layout_constraintTop_toBottomOf="@+id/contact_list_item_email_label" />
+
+    <TextView
+        android:id="@+id/contact_list_item_phone_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/contact_list_item_internal_spacing"
+        android:textSize="@dimen/contact_list_item_label_font_size"
+        android:text="@string/contact_list_item_phone_label"
+        app:layout_constraintStart_toStartOf="@+id/contact_list_item_email_value"
+        app:layout_constraintTop_toBottomOf="@+id/contact_list_item_email_value" />
+
+    <TextView
+        android:id="@+id/contact_list_item_phone_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_list_item_phone_default"
+        app:layout_constraintStart_toStartOf="@+id/contact_list_item_phone_label"
+        app:layout_constraintTop_toBottomOf="@+id/contact_list_item_phone_label" />
+
+    <TextView
+        android:id="@+id/contact_list_item_address_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/contact_list_item_internal_spacing"
+        android:textSize="@dimen/contact_list_item_label_font_size"
+        android:text="@string/contact_list_item_address_label"
+        app:layout_constraintStart_toStartOf="@+id/contact_list_item_phone_value"
+        app:layout_constraintTop_toBottomOf="@+id/contact_list_item_phone_value" />
+
+    <TextView
+        android:id="@+id/contact_list_item_address_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_list_item_address_value"
+        app:layout_constraintStart_toStartOf="@+id/contact_list_item_address_label"
+        app:layout_constraintTop_toBottomOf="@+id/contact_list_item_address_label" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
