@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.progressindicator.LinearProgressIndicator
+        android:id="@+id/progress_horizontal"
+        android:indeterminate="true"
+        android:layout_width="match_parent"
+        android:visibility="invisible"
+        android:layout_height="wrap_content"/>
+
+    <TableLayout
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:padding="@dimen/detail_row_padding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/title"
+                android:layout_span="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/task_detail_title_default"
+                android:textSize="21sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/deadline_row"
+            android:padding="@dimen/detail_row_padding"
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:gravity="center_vertical"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginEnd="@dimen/table_detail_column_spacing"
+                android:src="@drawable/ic_deadline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/icon_deadline_description" />
+            <TextView
+                android:id="@+id/deadline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textview_deadline_default" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tags_row"
+            android:padding="@dimen/detail_row_padding"
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:gravity="center_vertical"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginEnd="@dimen/table_detail_column_spacing"
+                android:src="@drawable/ic_tags"
+                android:contentDescription="@string/icon_deadline_description" />
+            <com.google.android.material.chip.ChipGroup
+                android:id="@+id/tags_container"
+                app:chipSpacingHorizontal="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            </com.google.android.material.chip.ChipGroup>
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
+

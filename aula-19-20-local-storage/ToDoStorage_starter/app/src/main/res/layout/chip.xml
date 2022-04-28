@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.chip.Chip android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:chipStartPadding="0dp"
+    app:chipEndPadding="0dp"
+    app:chipMinHeight="24dp"
+    app:chipMinTouchTargetSize="24dp"
+    app:chipIconSize="10dp"
+    app:chipCornerRadius="8dp"
+    android:textSize="11sp"
+    xmlns:android="http://schemas.android.com/apk/res/android" />
