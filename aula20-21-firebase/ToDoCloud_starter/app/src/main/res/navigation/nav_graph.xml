@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@+id/destination_list">
+
+    <fragment
+        android:id="@+id/destination_list"
+        android:name="br.edu.ufabc.todocloud.view.ListFragment"
+        android:label="{title}" >
+        <argument
+            android:name="filter_criteria"
+            app:argType="br.edu.ufabc.todocloud.view.FilterCriteria"
+            android:defaultValue="ALL" />
+        <argument
+            android:name="title"
+            app:argType="string"
+            android:defaultValue="All tasks"
+            />
+        <argument
+            android:name="tag"
+            app:argType="string"
+            android:defaultValue="No tag"/>
+        <action
+            android:id="@+id/filter_task_list"
+            app:destination="@id/destination_list"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:launchSingleTop="true"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+            app:popUpTo="@id/destination_list"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/on_tag_click"
+            app:destination="@id/destination_list"/>
+        <action
+            android:id="@+id/showDetail"
+            app:destination="@id/destination_detail" />
+        <action
+            android:id="@+id/newTask"
+            app:destination="@id/destination_add" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/destination_detail"
+        android:label="Task details"
+        android:name="br.edu.ufabc.todocloud.view.DetailFragment">
+        <argument
+            android:name="task_id"
+            app:argType="long" />
+        <action
+            android:id="@+id/on_complete_success"
+            app:popUpTo="@id/destination_list"
+            app:destination="@id/destination_detail" />
+        <action
+            android:id="@+id/on_tag_click"
+            app:destination="@id/destination_list"
+            />
+        <action
+            android:id="@+id/on_remove_success"
+            app:destination="@id/destination_list"
+            />
+        <action
+            android:id="@+id/edit_item"
+            app:destination="@id/destination_edit" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/destination_add"
+        android:name="br.edu.ufabc.todocloud.view.AddFragment"
+        android:label="New task">
+
+        <action
+            android:id="@+id/on_add_success"
+            app:destination="@id/destination_detail" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/destination_edit"
+        android:name="br.edu.ufabc.todocloud.view.EditFragment"
+        android:label="Edit task" >
+        <argument
+            android:name="task_id"
+            app:argType="long" />
+        <action
+            android:id="@+id/on_edit_success"
+            app:destination="@id/destination_detail"
+            />
+    </fragment>
+
+</navigation>

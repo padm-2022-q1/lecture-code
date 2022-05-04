@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">ToDo! Cloud</string>
+    <string name="nav_header_title">ToDo!</string>
+
+    <string name="all_tasks_title">All tasks</string>
+    <string name="overdue_tasks_title">Overdue</string>
+    <string name="tags_submenu_title">Tags</string>
+    <string name="completed_tasks_title">Completed</string>
+    <string name="tag_title">Tag: %s</string>
+    <string name="app_icon" translatable="false">App icon</string>
+    <string name="action_refresh_title">Refresh</string>
+    <string name="task_detail_title_default">title</string>
+    <string name="icon_deadline_description">Deadline</string>
+    <string name="textview_deadline_default">Tap to pick a date</string>
+    <string name="action_complete_title">Complete</string>
+    <string name="action_undo_complete_title">Undo complete</string>
+    <string name="action_undo_title">Undo complete</string>
+    <string name="textview_title_default">Task title</string>
+    <string name="fab_action_add_description">Add new task</string>
+    <string name="edittext_title_hint">Title</string>
+    <string name="textview_deadline_hint">Tap to enter</string>
+    <string name="edittext_tags_hint">Tags</string>
+    <string name="date_format">%02d/%02d/%04d</string>
+    <string name="chip_text_default">chip</string>
+    <string name="action_save_title">Save</string>
+    <string name="item_remove_title">Delete</string>
+    <string name="title_delete_contact_confirmation">Delete task?</string>
+    <string name="message_delete_title_confirmation">Are you sure want to delete the task? This operation cannot be undone.</string>
+    <string name="cancel_delete_contact_label">Cancel</string>
+    <string name="confirm_delete_contact_label">Confirm</string>
+    <string name="action_edit_title">Edit task</string>
+    <string name="sign_in_button">Sign-in</string>
+    <string name="app_logo">App logo</string>
+    <string name="action_sign_out_title">Sign out</string>
+    <string name="button_sign_in_text">Sign-in</string>
+</resources>

@@ -1,0 +1,1 @@
+O projeto `ToDo! Cloud` requer o arquivo `google-services.json`, criado ao cadastrar seu projeto no Firebase. Portanto, antes de executar o projeto, garanta que gerou e copiou o arquivo para a localização adequada.

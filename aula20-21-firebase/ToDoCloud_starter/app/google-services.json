@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "44227963161",
+    "project_id": "todo-padm",
+    "storage_bucket": "todo-padm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:44227963161:android:182edb48e3b4c7209dfd88",
+        "android_client_info": {
+          "package_name": "br.edu.ufabc.todocloud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "44227963161-j26coi3n000es9itatus0o8bf0hvkthh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.edu.ufabc.todocloud",
+            "certificate_hash": "5975a314af7eff806cd2f346be2f2df57544947d"
+          }
+        },
+        {
+          "client_id": "44227963161-tffo4uu0t2vml5j56qkdgvqpg4umab9p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCn-GZ5GKFlj94ROs-_uOQYXYgoVEm087E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "44227963161-tffo4uu0t2vml5j56qkdgvqpg4umab9p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
